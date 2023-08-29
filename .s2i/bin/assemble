@@ -2,6 +2,8 @@
 echo "Before assembling"
 echo "THIS IS CHARLES>>> FIND ME"
 
+cat /usr/libexec/s2i/assemble
+
 /usr/libexec/s2i/assemble
 rc=$?
 
