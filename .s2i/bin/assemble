@@ -1,9 +1,10 @@
 #!/bin/bash
 echo "Before assembling"
 echo "THIS IS CHARLES>>> FIND ME"
-
+nvm ls
+echo "Assemble file:"
 cat /usr/libexec/s2i/assemble
-
+echo "Assemble file END"
 /usr/libexec/s2i/assemble
 rc=$?
 
