@@ -5,6 +5,9 @@ nvm ls
 echo "Assemble file:"
 cat /usr/libexec/s2i/assemble
 echo "Assemble file END"
+
+npm install -g n
+
 /usr/libexec/s2i/assemble
 rc=$?
 
