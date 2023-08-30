@@ -2,9 +2,9 @@
 echo "Before assembling"
 echo "THIS IS CHARLES>>> FIND ME"
 
-npm install -g npm@9.8.1
+npm install 
 
-/usr/libexec/s2i/assemble
+
 rc=$?
 
 if [ $rc -eq 0 ]; then
