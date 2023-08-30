@@ -2,7 +2,7 @@
 echo "Before assembling"
 echo "THIS IS CHARLES>>> FIND ME"
 
-npm install -g n
+npm install -g npm@9.8.1
 
 /usr/libexec/s2i/assemble
 rc=$?
